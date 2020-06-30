@@ -1,0 +1,15 @@
+ssh binbin@firedance.soe.ucsc.edu
+
+
+chmod 711 ~
+mkdir ~/.html
+chmod 755 ~/.html
+touch ~/.html/index.html
+chmod 644 ~/.html/index.html
+
+
+Open the terminal at this folder
+
+ls
+
+scp * binbin@firedance.soe.ucsc.edu:~/.html/
