@@ -19,11 +19,17 @@
             width: 200px;
             height: 220px;
         }
-
         .item .content {
+        float: left;
+        width: calc(100% - 220px); /* Adjusts dynamically based on image size */
+        max-width: 800px; /* Ensures it doesn't grow excessively on large screens */
+        margin-left: 20px; /* Adds space between the image and text */
+        }
+
+/*         .item .content {
             float: left;
             width: 600px;
-        }
+        } */
     </style>
 </head>
 
